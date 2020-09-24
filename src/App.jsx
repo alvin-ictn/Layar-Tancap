@@ -30,7 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Footer/>
+    
       <Router>
         <ul>
           <li><Link to="/">Home</Link></li>
@@ -50,6 +50,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer/>
     </div>
   );
 }

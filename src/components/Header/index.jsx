@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <header className={styles.header}>
         <section className={styles["header--content"]}>  
-          <HeaderImage className={styles["header--content--jumbotron"]}/>
+          <HeaderImage src={this.props.imgSrc} className={styles["header--content--jumbotron"]}/>
           <div className={styles["header--content--information"]}>
             {this.props.children}
           </div>
